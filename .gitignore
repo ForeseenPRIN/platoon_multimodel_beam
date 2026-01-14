@@ -1,0 +1,5 @@
+FMUs/*.fmu
+build
+.venv
+__pycache__
+figures
