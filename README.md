@@ -28,6 +28,13 @@ The following diagram shows the FMU connections in the co-simulation in the case
    make V2N    # For Vehicle-to-Network simulation
    make V2V    # For Vehicle-to-Vehicle simulation
    ```
+4. In a separate shell, you may run:
+   ```bash
+   python plot.py --mec --csv build/modelV2N/outputs.csv
+   # OR
+   python plot.py --csv build/modelV2V/outputs.csv
+   ```
+   to plot the evolution of the system in real time
 
 The simulation will:
 - Generate the co-simulation configuration
