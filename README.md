@@ -8,6 +8,10 @@ The simulation supports two communication architectures:
 - **V2N (Vehicle-to-Network)**: Centralized control via a MEC (Multi-access Edge Computing) controller
 - **V2V (Vehicle-to-Vehicle)**: Distributed control
 
+The following diagram shows the FMU connections in the co-simulation in the case of V2N:
+
+![FMU Connections](figures2/fmu_connections.png)
+
 ## Requirements
 
 - BeamNG.tech simulator
