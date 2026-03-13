@@ -18,6 +18,10 @@ The following diagram shows the FMU connections in the co-simulation in the case
 - [Maestro](https://github.com/INTO-CPS-Association/maestro) co-simulation orchestration engine
 - Python 3 with `beamngpy` library
 - Make
+- the required FMUs
+   - the controller and driver can be found [here](https://github.com/ForeseenPRIN/platoon_controller_beam)
+   - the MEC can be found [here](https://github.com/christianquadri/platoon_simulator)
+   - the patched BeamNG FMU are found [here](https://github.com/scarburato/BeamNG-FMU), in the `modeldescfix` branch
 
 ## Quick Start
 
